@@ -86,9 +86,3 @@ class Blockchain:
         }
         print transaction
         self.transactions.append(transaction)
-
-blockchain = Blockchain("Werner Coin", 4, "0")
-blockchain.load_local_ledger()
-blockchain.calculate_wallet("0")
-blockchain.start_mine()
-
